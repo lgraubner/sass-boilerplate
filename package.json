@@ -1,0 +1,33 @@
+{
+  "name": "base-sass-project",
+  "version": "0.1.0",
+  "description": "Basic file structure and styles for new projects.",
+  "main": "src/scss/main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgraubner/base-sass-project.git"
+  },
+  "keywords": [
+    "sass",
+    "styles",
+    "css",
+    "ecosystem:browser"
+  ],
+  "author": {
+    "name": "Lars Graubner",
+    "email": "mail@larsgraubner.de",
+    "url": "http://larsgraubner.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgraubner/base-sass-project/issues"
+  },
+  "homepage": "https://github.com/lgraubner/base-sass-project#readme",
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  },
+  "private": true
+}

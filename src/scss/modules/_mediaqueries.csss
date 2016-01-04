@@ -1,0 +1,42 @@
+/* Mobile */
+@mixin mobile($bp: $bp-mobile) {
+    @media only screen and (max-width: $bp) {
+        @content;
+    }
+}
+
+/* Tablets */
+@mixin tablet($bp: $bp-tablet) {
+    @media only screen and (max-width: $bp) {
+        @content;
+    }
+}
+
+/* Desktop devices */
+@mixin desktop($bp: $bp-desktop) {
+    @media only screen and (max-width: $bp) {
+        @content;
+    }
+}
+
+/* Retina displays */
+@mixin retina($ratio: 1.3) {
+    @media only screen and (-webkit-min-device-pixel-ratio: $ratio),
+    only screen and (min-resolution: #{round($ratio*96)}dpi) {
+        @content;
+    }
+}
+
+/* Mobile devices landscape */
+@mixin landscape() {
+    @media only screen and (orientation: landscape) {
+        @content;
+    }
+}
+
+/* Mobile devices portrait */
+@mixin portrait() {
+    @media only screen and (orientation: portrait) {
+        @content;
+    }
+}
