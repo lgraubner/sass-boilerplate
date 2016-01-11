@@ -16,6 +16,10 @@ body {
 
 a {
     text-decoration: none;
+    
+    &[href]:not([class]) {
+      text-decoration: underline;
+    }
 
     /* Remove styling of telephone links */
     &[href^="tel:"] {
