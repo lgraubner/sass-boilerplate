@@ -1,0 +1,30 @@
+/// Mixin to prefix several properties at once
+/// @author Hugo Giraudel
+/// @param {Map} $declarations - Declarations to prefix
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($declarations, $prefixes: webkit moz ms o) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin respond-to($breakpoint) {
+  @media screen and (min-width: #{if(type-of($query) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
+    @content;
+  }
+}

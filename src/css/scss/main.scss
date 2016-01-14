@@ -1,14 +1,15 @@
-@import "modules/variables";
-@import "modules/mixins";
-@import "modules/mediaqueries";
-@import "modules/helpers";
+@charset 'utf-8';
+
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/helpers';
 
 // import vendor styles
-// @import "../vendor/file";
-@import "../../../node_modules/normalize.css/normalize";
+// @import '../vendor/file';
+@import '../../../node_modules/normalize.css/normalize';
 
-@import "partials/base";
-@import "partials/print";
+@import 'base/base';
+@import 'base/print';
 
-// import components
-// @import "components/mycomponent";
+// import layouts, pages and components
+// @import 'components/mycomponent';

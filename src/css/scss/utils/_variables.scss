@@ -2,9 +2,9 @@
  * Breakpoints
  */
 
-$bp-mobile: 768px;
-$bp-tablet: 992px;
-$bp-desktop: 1024px;
+$bp-small: 768px;
+$bp-medium: 992px;
+$bp-large: 1024px;
 
 /**
  * Colors
@@ -18,7 +18,7 @@ $color-text: #000;
  */
 
 $font-size: 14px;
-$font-primary: Helvetica, Arial, sans-serif;
+$font-primary: 'Helvetica', 'Arial', sans-serif;
 
 /**
  * Miscellaneous
