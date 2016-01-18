@@ -9,16 +9,16 @@ html {
 }
 
 body {
-  font-family: $font-primary !default;
-  @include font-size($font-size) !default;
-  color: $color-text !default;
+  font-family: $font-primary;
+  @include font-size($font-size);
+  color: $color-text;
 }
 
 a {
   text-decoration: none;
 
   &[href]:not([class]) {
-    text-decoration: underline !default;
+    text-decoration: underline;
   }
 
   /* Remove styling of telephone links */
