@@ -24,7 +24,7 @@
 }
 
 @mixin respond-to($breakpoint) {
-  @media screen and (min-width: #{if(type-of($query) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
+  @media screen and (min-width: #{if(type-of($breakpoint) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
     @content;
   }
 }
