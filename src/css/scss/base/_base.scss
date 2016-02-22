@@ -17,10 +17,6 @@ body {
 a {
   text-decoration: none;
 
-  &[href]:not([class]) {
-    text-decoration: underline;
-  }
-
   /* Remove styling of telephone links */
   &[href^='tel:'] {
     color: $color-text;
@@ -51,4 +47,9 @@ textarea {
   @extend button;
   /* Set font size to 16px to avoid iOS zooming on focus */
   font-size: 16px;
+}
+
+/* focus on semantic, not default style */
+h1, h2, h3, h4, h5, h6 {
+  @include font-size($font-size + 2);
 }
