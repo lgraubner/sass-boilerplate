@@ -1,6 +1,6 @@
-# Base SASS project
+# Sass boilerplate
 
-This is a starting point for projects using SASS. The following features are included:
+This is a starting point for projects using Sass. The following features are included:
 
 * Folder structure orientated on the [7-1 Pattern](http://sass-guidelin.es/#the-7-1-pattern)
 * Reset (provided by [normalize.css](https://necolas.github.io/normalize.css/))
