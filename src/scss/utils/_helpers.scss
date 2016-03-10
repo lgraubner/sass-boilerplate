@@ -1,6 +1,6 @@
 %clearfix {
   &:before, &:after {
-    content: '';
+    content: ' ';
     display: table;
   }
   &:after {
@@ -11,8 +11,8 @@
 .clearfix {
   &:before,
   &:after {
-    display: table;
     content: ' ';
+    display: table;
   }
 
   &:after {

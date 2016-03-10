@@ -1,0 +1,26 @@
+/**
+ * Breakpoints
+ */
+
+$bp-small: emCalc(768px);
+$bp-medium: emCalc(992px);
+$bp-large: emCalc(1024px);
+$bp-wide: emCalc(1280px);
+
+/**
+ * Colors
+ */
+
+$color-primary: blue;
+$color-text: #000;
+
+/**
+ * Fonts
+ */
+
+$font-size: 14px;
+$font-primary: Helvetica, Arial, sans-serif;
+
+/**
+ * Miscellaneous
+ */

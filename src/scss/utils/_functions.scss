@@ -1,0 +1,13 @@
+/**
+ * Converts pixel values to em
+ */
+@function emCalc($pxWidth) {
+  @return $pxWidth / 16px * 1em;
+}
+
+/**
+ * Converts pixel values to rem
+ */
+@function remCalc($pxWidth) {
+  @return $pxWidth / 16px * 1rem;
+}
