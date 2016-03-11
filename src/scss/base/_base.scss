@@ -1,7 +1,5 @@
 html {
-  /**
-   * Enable border-box for elements
-   */
+  // Enable border-box for elements
   box-sizing: border-box;
   font-size: 100%;
 }
@@ -10,9 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Remove text-shadow in selection highlight
- */
+// Remove text-shadow in selection highlight
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -23,33 +19,25 @@ html {
   text-shadow: none;
 }
 
-/**
- * default font-family, font-size and color
- */
+// default font-family, font-size and color
 body {
   font-family: $font-primary;
   @include font-size($font-size);
   color: $color-text;
 }
 
-/**
- * Avoid link underline
- */
+// Avoid link underline
 a {
   text-decoration: none;
 
-  /**
-   * Remove styling of telephone links
-   */
+  // Remove styling of telephone links
   &[href^='tel:'] {
     color: $color-text;
     cursor: default;
   }
 }
 
-/**
- * Reset button styling
- */
+// Reset button styling
 button,
 input[type='button'] {
   outline: 0;
@@ -70,31 +58,23 @@ input[type='tel'],
 input[type='url'],
 textarea {
   @extend button;
-  /**
-   * Set font size to 16px to avoid iOS zooming on focus
-   */
+  // Set font size to 16px to avoid iOS zooming on focus
   font-size: 16px;
 }
 
-/**
- * Remove default fieldset styles
- */
+// Remove default fieldset styles
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/**
- * Allow only vertical resize of textareas
- */
+// Allow only vertical resize of textareas
 textarea {
   resize: vertical;
 }
 
-/**
- * Remove gap beneath elements
- */
+// Remove gap beneath elements
 audio,
 canvas,
 iframe,
@@ -104,16 +84,12 @@ video {
   vertical-align: middle;
 }
 
-/**
- * Focus on semantic, not default style
- */
+// Focus on semantic, not default style
 h1, h2, h3, h4, h5, h6 {
   @include font-size($font-size + 2px);
 }
 
-/**
- * A better looking default horizontal rule
- */
+// A better looking default horizontal rule
 hr {
   display: block;
   height: 1px;
@@ -123,9 +99,7 @@ hr {
   padding: 0;
 }
 
-/**
- * Reset figure spacing
- */
+// Reset figure spacing
 figure {
   margin: 0;
 }

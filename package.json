@@ -1,7 +1,7 @@
 {
   "name": "sass-boilerplate",
-  "version": "0.1.0",
-  "description": "Basic file structure and styles for new projects.",
+  "version": "0.2.0",
+  "description": "Basic file structure and styles for new projects using SASS.",
   "main": "src/scss/main.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
