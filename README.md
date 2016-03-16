@@ -6,7 +6,7 @@ This is a starting point for projects using Sass. The following features are inc
 * Reset (provided by [normalize.css](https://necolas.github.io/normalize.css/))
 * Base styling and best practices
 * Print styles (taken from [HTML5 boilerplate](https://html5boilerplate.com/))
-* Useful mixins (bemify, mediaquery, em/rem converter)
+* Useful mixins (bemify, mediaquery, prefix, font-size)
 * Helper functions, classes and placeholders
 * Base variable template
 
