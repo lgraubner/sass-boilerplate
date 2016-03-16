@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/lgraubner/sass-boilerplate#readme",
   "dependencies": {
+    "bemify": "^0.1.0",
     "normalize.css": "^3.0.3"
   },
   "private": true
