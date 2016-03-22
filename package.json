@@ -1,6 +1,6 @@
 {
   "name": "sass-boilerplate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Basic file structure and styles for new projects using SASS.",
   "main": "src/scss/main.scss",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/lgraubner/sass-boilerplate#readme",
   "dependencies": {
     "bemify": "^0.1.0",
-    "normalize.css": "^3.0.3"
+    "normalize.css": "^4.0.0"
   },
   "private": true
 }
