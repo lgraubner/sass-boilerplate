@@ -1,7 +1,5 @@
 @charset 'utf-8';
 
-$node_modules: '../../node_modules';
-
 @import 'utils/variables';
 @import 'utils/functions';
 @import 'utils/mixins';
@@ -9,8 +7,8 @@ $node_modules: '../../node_modules';
 
 // import vendor styles
 // @import '../vendor/file';
-@import '#{$node_modules}/normalize.css/normalize';
-@import '#{$node_modules}/bemify/sass/bemify';
+@import '../../node_modules/normalize.css/normalize';
+@import '../../node_modules/bemify/sass/bemify';
 
 @import 'base/base';
 @import 'base/print';
