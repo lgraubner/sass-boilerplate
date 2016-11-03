@@ -23,11 +23,20 @@
   font-size: remCalc($size);
 }
 
-/// Very basic media query mixin
+/// Very basic media query mixin for min-width
 /// @access public
 /// @param {Number} $breakpoint
-@mixin respond-to($breakpoint) {
+@mixin min-width($breakpoint) {
   @media screen and (min-width: #{if(type-of($breakpoint) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
+    @content;
+  }
+}
+
+/// Very basic media query mixin for max-width
+/// @access public
+/// @param {Number} $breakpoint
+@mixin max-width($breakpoint) {
+  @media screen and (max-width: #{if(type-of($breakpoint) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
     @content;
   }
 }
