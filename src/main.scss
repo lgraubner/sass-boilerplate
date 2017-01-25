@@ -1,14 +1,14 @@
 @charset 'utf-8';
 
-@import 'utils/variables';
-@import 'utils/functions';
-@import 'utils/mixins';
-@import 'utils/helpers';
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
 
 // import vendor styles
 // @import '../vendor/file';
 @import '../node_modules/normalize.css/normalize';
 
+@import 'base/helpers';
 @import 'base/reset';
 @import 'base/print';
 

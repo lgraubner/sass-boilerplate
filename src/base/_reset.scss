@@ -1,3 +1,6 @@
+/**
+ * Defaults and additional resets for elements
+ */
 html {
   // Enable border-box for elements
   box-sizing: border-box;
@@ -9,21 +12,9 @@ html {
 }
 
 // Remove text-shadow in selection highlight
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
-}
-
-// default font-family, font-size and color
-body {
-  font-family: $font-primary;
-  @include font-size($font-size);
-  color: $color-text;
 }
 
 // Avoid link underline
@@ -42,10 +33,6 @@ button,
 input[type='button'] {
   outline: 0;
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  -ms-border-radius: 0;
   border-radius: 0;
   cursor: default;
 }
@@ -87,7 +74,7 @@ video {
 
 // Focus on semantic, not default style
 h1, h2, h3, h4, h5, h6 {
-  @include font-size($font-size + 2px);
+  font-size: $font-base-size + 2px;
 }
 
 // A better looking default horizontal rule

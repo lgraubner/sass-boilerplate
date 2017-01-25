@@ -1,13 +1,8 @@
-%clearfix {
-  &:before, &:after {
-    content: ' ';
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
-}
+/**
+ * CSS helper classes
+ */
 
+// clearfix
 .clearfix {
   &:before,
   &:after {
@@ -20,33 +15,17 @@
   }
 }
 
-%hidden {
-  display: none !important;
-}
-
+// hide element
 .hidden {
   display: none !important;
 }
 
-%visible {
-  display: block !important;
-}
-
+// show element
 .visible {
   display: block !important;
 }
 
-%invisible {
-  border: 0;
-  clip:rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
+// make element invisible
 .invisible {
   border: 0;
   clip:rect(0 0 0 0);
@@ -58,92 +37,56 @@
   width: 1px;
 }
 
-%float-left {
-  float: left;
-}
-
+// float left
 .float-left {
   float: left;
 }
 
-%float-right {
-  float: right;
-}
-
+// float right
 .float-right {
   float: right;
 }
 
-%img-responsive {
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-
+// add responsive image behaviour
 .img-responsive {
   height: auto;
   max-width: 100%;
   display: block;
 }
 
-%text-left {
-  text-align: left;
-}
-
+// align text left
 .text-left {
   text-align: left;
 }
 
-%text-right {
-  text-align: right;
-}
-
+// align text right
 .text-right {
   text-align: right;
 }
 
-%text-center {
-  text-align: center;
-}
-
+// align text to the middle
 .text-center {
   text-align: center;
 }
 
-%text-justify {
-  text-align: justify;
-}
-
+// justify text
 .text-justify {
   text-align: justify;
 }
 
-%text-uppercase {
-  text-transform: uppercase;
-}
-
+// make text uppercase
 .text-uppercase {
   text-transform: uppercase;
 }
 
-%text-hide {
-  text-indent: -9999px;
-  overflow: hidden;
-  display: block;
-}
-
+// move text out of viewport
 .text-hide {
   text-indent: -9999px;
   overflow: hidden;
   display: block;
 }
 
-%block-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+// center element
 .block-center {
   display: block;
   margin-left: auto;
