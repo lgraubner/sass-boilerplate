@@ -11,3 +11,9 @@ This is a starting point for projects using Sass. The following features are inc
 * Base variable template
 
 Everything is included in the `main.scss` file. To get started compile everything using this as entry point. You should also use [`postcss/autoprefixer`](https://www.google.de/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=autoprefixer) to handle browser specific prefixes.
+
+## Best practices
+
+* Use `px` values for fonts
+* Use Flexbox it's adopted in all [current browsers](http://caniuse.com/#feat=flexbox)
+* Let autoprefixer handle vendor prefixes
