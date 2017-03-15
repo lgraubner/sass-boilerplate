@@ -20,13 +20,3 @@
     @content;
   }
 }
-
-/// Async font loading
-/// @param {String} $family
-@mixin font-family($family, $fallback: $font-fallback) {
-  font-family: $fallback;
-
-  .wf-loaded & {
-    font-family: $family;
-  }
-}
