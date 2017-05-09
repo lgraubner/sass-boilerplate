@@ -1,6 +1,6 @@
 {
   "name": "sass-boilerplate",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Basic file structure and styles for new projects using SASS.",
   "main": "src/main.scss",
   "scripts": {
