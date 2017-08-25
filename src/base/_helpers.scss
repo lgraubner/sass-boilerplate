@@ -15,36 +15,16 @@
   }
 }
 
-// hide element
-.hidden {
-  display: none !important;
-}
-
-// show element
-.visible {
-  display: block !important;
-}
-
 // make element invisible
 .invisible {
   border: 0;
-  clip:rect(0 0 0 0);
+  clip: rect(0 0 0 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
   padding: 0;
   position: absolute;
   width: 1px;
-}
-
-// float left
-.float-left {
-  float: left;
-}
-
-// float right
-.float-right {
-  float: right;
 }
 
 // add responsive image behaviour
@@ -54,41 +34,9 @@
   display: block;
 }
 
-// align text left
-.text-left {
-  text-align: left;
-}
-
-// align text right
-.text-right {
-  text-align: right;
-}
-
-// align text to the middle
-.text-center {
-  text-align: center;
-}
-
-// justify text
-.text-justify {
-  text-align: justify;
-}
-
-// make text uppercase
-.text-uppercase {
-  text-transform: uppercase;
-}
-
 // move text out of viewport
 .text-hide {
   text-indent: -9999px;
   overflow: hidden;
   display: block;
-}
-
-// center element
-.block-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
